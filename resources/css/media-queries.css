@@ -1,0 +1,127 @@
+@media only screen and (max-width:1200px) {
+    .main-nav {
+        float: left;
+        list-style: none;
+        margin: 110px 0 0 66px;
+    }
+    .intro-text h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:887px) {
+    .main-nav {
+        width: 70%;
+        float: left;
+        list-style: none;
+        margin: 110px 0 0 66px;
+    }
+    .main-nav li {
+        font-size: 15px;
+        display: inline-block;
+        margin-left: 40px;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:788px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row {
+        padding: 0 4%;
+    }
+    .logo {
+        width: 16%;
+        height: 20%;
+    }
+    .main-nav {
+        display: none
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .main-nav li a {
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.0);
+        -webkit-transition: .6s background;
+        transition: .6s background;
+    }
+    .main-nav li {
+        display: block;
+        list-style: none;
+        font-size: 17px;
+        line-height: 14px;
+        letter-spacing: 1px
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        background: rgba(0, 0, 0, 0.0);
+    }
+    /*STICKY NAV BAR*/
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(217, 215, 215, 0.98);
+        box-shadow: 0 2px 2px #efefef;
+        z-index: 9999;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 15px 0px;
+        color: #555;
+    }
+    .sticky .main-nav {
+        margin-top: 20px;
+    }
+    
+    .more{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .intro-text{
+        font-size: 11px;
+    }
+    
+    .about-image{
+        width: 24%;
+    }
+    
+    .more{
+        font-size: 22px;
+    }
+    
+    .iraqi{
+        margin-bottom: 18px;;
+    }
+    .footer {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/vendors/img/footer.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/vendors/img/footer.jpg);
+    background-size: cover;
+    text-align: center;
+}
+}
